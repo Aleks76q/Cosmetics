@@ -1,0 +1,446 @@
+@media (max-width:1230px){
+	
+	.container__header{
+		display: flex;
+		flex-wrap: wrap;
+        width: 550px;
+        margin-left: 10px;
+	}
+	.header__item-headerlogo,.header__item-header-6,.header__item__header-8{
+		display: none;
+	}
+    
+    .block__Makeup-Store-2-1,.block__Makeup-Store-3-1,
+    .block__Makeup-Store-4-1{
+    	display: inline-flex;
+    }
+    .wrap__Makeup-Store{
+    	display:flex;
+        flex-direction:column;
+    } 
+    .block-image {
+        margin-top: 50px;   
+    }
+    .block__icons{
+    	display:flex;
+        justify-content:center;
+    }
+}
+
+@media (max-width:993px){
+    .header{
+        height: 70px;
+        font-size: 18px;
+        position: fixed;
+    }
+	.header__section{
+		display:flex;
+        justify-content:flex-end;
+	}
+	.body__header{
+		transition: all ease 1s;
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 10px;
+		}
+	
+	.c-hamburder{
+		display: block;
+		position: absolute;
+		right: 0;
+        top: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 55px;
+        height: 55px;
+        font-size: 0;
+        box-shadow: none;
+        cursor: pointer;
+        background: #B65667;
+        border: none;
+        z-index: 9999;
+
+	}
+	.c-hamburder:focus {
+		outline: none;
+	}
+	.c-hamburder span {
+		display: block;
+		position: absolute;
+		top: 30px;
+		left: 5px;
+		right: 5px;
+		height: 4px;
+		border-radius: 20px;
+		background: #fff;
+		
+	}
+	.c-hamburder span::before,.c-hamburder span::after {
+		position: absolute;
+		display: block;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		border-radius: 20px;
+		background: #fff;
+		content: "";
+	}
+	.c-hamburder span::before {
+		top: -15px;
+	}
+	.c-hamburder-line span::after {
+		bottom: -15px;
+	}
+	.c-hamburder-line span {
+        -webkit-transition: background;
+        -moz-transition: background;
+        -ms-transition: background;
+        -o-transition: background;
+        transition: background 0s 0.3s;
+        
+	}
+	.c-hamburder-line span::before,.c-hamburder-line span::after{
+		transition-duration: 0.3s,0.3s;
+		transition-delay: 0.3s,0s;
+	}
+	.c-hamburder-line span::before{
+		transition-property: top,transform;
+	}
+	.c-hamburder-line span::after{
+		transition-property: bottom,transform;
+	}
+	.c-hamburder-line.is-active {
+		background: #B65667;
+	}
+	.c-hamburder-line.is-active span {
+		background: none;
+	}
+	.c-hamburder-line.is-active span::before{
+		top: 0;
+		transform: rotate(-45deg);
+	}
+	.c-hamburder-line.is-active span::after{
+		bottom: 0;
+		transform: rotate(45deg);
+	}
+	.c-hamburder-line.is-active span::before,.c-hamburder-line.is-active span::after{
+		transition-delay: 0s,0,3s;
+	}
+	#menu {
+        display: flex;
+		width: 300px;
+		margin-left: -245px;
+		background: rgba(182, 86, 103, 0);
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+        right: 0;   
+		transition: all ease 1s;
+		overflow: auto;	
+	}
+	#menu.nav-active{
+        display: block;
+		margin-left: 0px;
+		background: rgba(182, 86, 103, 1);
+	}
+	.body__header-active {
+		top: 0;
+	}
+	.container__header{
+	   display:flex;
+	   flex-direction:column;
+       align-items:center;
+       height: 400px;
+       width: 300px;    
+       margin-top: 100px;
+	}
+	.header__item-header-1,.header__item-header-2,.header__item-header-3,
+	.header__item-header-4,.header__item-header-5{
+       font-size: 18px;
+       line-height: 22px;
+	}
+	.header__item-header-3{
+		margin-left: -22px;
+	}
+	.header__item-headerlogo-1,.header__item-headerlogo{
+		width: 45px;
+		height: 40px;
+        border-radius: 10%;
+        margin-right: 5px;  
+	}
+	.header__item-header{
+		font-size: 20px;
+	}
+	.block__collection{
+        padding-top: 139px;
+    }
+	.new-items {
+		font-size: 20px;
+	}
+    .new-items__items-1 {
+    	font-size: 26px;
+    }
+	.header__section{
+		margin: 0;
+	}
+	
+	.header__link {
+		font-size: 24px;
+	}  
+   .new-items,.new-items__items-menu{
+   	display: flex;
+   	flex-wrap: wrap;
+   }
+    .block__collection{
+    	display: flex;
+    	flex-wrap: wrap;
+    	text-align: center;
+    	margin: 10px;
+    }
+    .block__collection-1{
+    	margin-top: -150px;
+    	margin-bottom: 15px;
+    	align-items: center;
+    }
+    
+    .galerry{
+    	display: flex;
+    	flex-wrap: wrap;
+        justify-content:center;
+    }
+    .button-3{
+    	margin-bottom: 30px;
+    }
+    .block-image{
+    	display: flex;
+    	flex-wrap: wrap;
+    	text-align: center;
+    }
+    .vector-1,.vector-2{
+    	display: none;	
+    }
+    
+    .catalog-gallery{
+    	display: flex;
+    	flex-wrap: wrap;
+    	}
+    .catalog-gallery-two{
+    	display: flex;
+    	flex-wrap: wrap;
+    }
+    .block__Makeup-Store{
+        width: 95%;
+        margin-top: -130px;
+    }
+    .block__Makeup-Store-1{
+    	font-size: 18px;
+    }
+   /* .footer{
+    	width: 100%;
+    }*/
+}
+@media (max-width:660px){
+    .header{
+        height: 55px;
+    }
+    .new-items{
+        margin-bottom: 90px;    
+    }
+    .c-hamburder span{
+        top: 25px;
+    }
+	.block__collection-1{
+		font-size: 22px;
+	}
+	
+	.foto{
+		margin: 0px;
+        padding: 0px;
+        min-width: 388px;
+        position: relative;
+        overflow-x: hidden;
+	}
+	.foto-1 img,.foto-2 img{
+		background-position: center;
+        background-attachment: fixed;
+        width: 388px;
+        position: relative;
+       -webkit-background-size: cover;
+        background-size: cover;
+	}
+
+	.block-icons{
+    	display:flex;
+        flex-direction:column;
+        margin-top: 30px;   
+    }
+    .block__icons-1 img{
+    	display: none;
+    }
+    .block__icons-6{
+    	display: none;
+    }
+    .galerry{
+    	display:flex;
+        flex-direction:column;
+         margin-top: -80px;
+    }
+
+    .content {
+	padding: 100px 0px 0px 0px;
+    }
+    .content__text {
+	   font-size: 18px;
+	   line-height: 25px;
+    }
+    .content__text p{
+	   margin: 0px 0px 20px 0px;
+    }
+    .makeup-store-line{
+        font-size: 30px;    
+    }
+    .makeup-store{
+        font-size: 20px;    
+    }
+}
+@media (max-width:575px){
+    .catalog{
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 28px;   
+    }
+    .block__list-10{
+        font-size:  28px;
+    }
+    .button-1{
+        width: 200px;   
+        height: 45px;
+        border-radius: 7px;   
+    }
+    .button__text{
+        font-size: 16px;    
+        font-weight: 500;   
+    }
+    .button-1:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+}
+    .button-1{
+        width: 200px;   
+        height: 45px;
+        border-radius: 7px;   
+    }
+    
+    .button__text:hover{
+    font-size: 18px;
+    margin-left: 5px;
+    }
+    .button__catalog-1{
+        width: 200px;   
+        height: 45px;
+        border-radius: 7px;   
+    }
+    .button__catalog-text{
+        font-size: 16px;    
+        font-weight: 500;   
+    }
+    .button__catalog-text:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;  
+    }
+    
+    .button__text:hover{
+    font-size: 18px;
+    margin-left: 5px;
+    }
+    .block__collection-02 img{
+      max-width: 300px;
+      height: 420px;
+    }  
+    .block__collection-03{
+        font-size: 16px;
+        margin-top: 15px;
+        height: 40px;
+    }
+    .block-image img{
+        max-width:  470px;
+    }
+    .footer{
+        text-align: center;
+        box-sizing: border-box;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .footer__section{
+        flex-direction: column;
+    }
+    .footer__item-footer{
+        margin-top: 20px;
+    }
+    .footer__menu-body{
+        width: 100px;
+        height: 300px;
+        margin-left: 35px;
+    }
+    .footer__contact{
+        flex-direction: column;
+    }
+    .footer__contact-1{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:480px){
+	.block__collection-02 img{
+       max-width: 200px;
+       height: 350px; 
+    } 
+	.block__collection-03{
+        font-size: 12px;
+        margin-top: 15px;
+        height: 50px;
+    }
+    .block-image img{
+        max-width:  350px;
+    }
+    .makeup-store-line{
+        font-size: 25px;    
+    }
+    .makeup-store{
+        font-size: 18px;    
+    }
+}
+@media (max-width: 360px){
+    .block__list-11{
+        margin-left: 5px;   
+    }
+    .block__collection-02 img{
+       max-width: 300px;
+       height: 250px; 
+    }
+    .block__collection-03{
+        font-size: 10px;
+        margin-top: 15px;
+        width: 100px;
+    }
+    .block__collection-04{
+    margin-left: 70px;
+    }
+    .block-image img{
+        width:  230px;
+    }
+    .catalog{
+        font-size: 24px;    
+    }
+    .footer{
+        margin-top: 40px;   
+    }
+    
+
+}
